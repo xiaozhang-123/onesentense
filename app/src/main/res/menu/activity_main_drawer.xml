@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/news"
+            android:title="每日新闻" />
+        <item
+            android:id="@+id/quit"
+            android:icon="@drawable/quit"
+            android:title="退出登录" />
+        <item
+            android:id="@+id/daynight"
+            android:icon="@drawable/moon"
+            android:title="开/关夜间模式"
+/>
+    </group>
+
+
+
+</menu>
